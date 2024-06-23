@@ -1,0 +1,7 @@
+export enum UserStatus {
+  // 활성상태, 출금정지, 계정일시정지, 계정삭제 
+  ACTIVE = 'ACTIVE',
+  WITHDRAWAL_SUSPENDED = 'WITHDRAWAL_SUSPENDED',
+  ACCOUNT_SUSPENDED = 'ACCOUNT_SUSPENDED',
+  ACCOUNT_DELETED = 'ACCOUNT_DELETED',
+}
